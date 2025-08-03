@@ -37,7 +37,7 @@ export default function PostsList() {
 					dispatch(fetchPosts({ skip: posts.length, limit: 10 }))
 				}
 			},
-			{ threshold: 1.0 } // при попадании 100% в видимую область
+			{ threshold: 1.0 } // при 100% попадании в видимую область
 		)
 
 		// Наблюдаем за последним элементом списка

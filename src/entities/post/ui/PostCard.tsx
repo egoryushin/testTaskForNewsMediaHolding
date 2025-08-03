@@ -1,6 +1,8 @@
-import { Post } from '@/entities/post/model/types'
 import { Card, Tag, Typography } from 'antd'
 import Link from 'next/link'
+
+import { Post } from '@/entities/post/model/types'
+
 import styles from '../styles/PostCard.module.scss'
 
 const { Title, Paragraph, Text } = Typography
